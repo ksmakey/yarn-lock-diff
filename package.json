@@ -1,0 +1,16 @@
+{
+  "name": "yarn-lock-diff",
+  "version": "0.1.0",
+  "description": "See what has changed after yarn upgrade.",
+  "main": "index.js",
+  "bin": {
+    "yarn-lock-diff": "bin/yarn-lock-diff.js"
+  },
+  "repository": "https://github.com/ksmakey/yarn-lock-diff",
+  "author": "ksmakey@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@yarnpkg/lockfile": "^1.1.0",
+    "commander": "^3.0.2"
+  }
+}
