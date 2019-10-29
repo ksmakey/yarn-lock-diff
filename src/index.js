@@ -9,14 +9,12 @@ module.exports = class YarkLockDiff {
   }
 
   run() {
-    console.log("run command");
     let previous = this.loadLockFile(this.previous);
     let current = this.loadLockFile(this.current);
 
     let changes = this.diff(previous, current);
-    console.log(changes);
 
-    return;
+    return changes;
   }
 
   loadLockFile(file) {
