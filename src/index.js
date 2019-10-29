@@ -64,7 +64,11 @@ module.exports = class YarkLockDiff {
   formatNameAndVersion(obj) {
     let packages = {};
     Object.keys(obj.object).forEach(function(key) {
-      const name = key.split("@")[0];
+      const names = key.split("@");
+      let name = names[0];
+      if (name == "") {
+        name = "@" + names[1];
+      }
       packages[name] = { name: name, version: obj.object[key].version };
     });
 
