@@ -3,6 +3,10 @@
 `yarn-lock-diff` shows you changes for `yarn upgrade`.
 This command needs to execute before commit for changes.
 
+### Requires
+
+Node.js >= 6.0.0
+
 ## Installation
 
 ```
@@ -11,7 +15,7 @@ $ yarn add @ksmakey/yarn-lock-diff
 
 ## CLI command references
 
-You may needs to set path to `node_modules/@ksmakey/yarn-lock-diff/bin/yarn-lock-diff`.
+You may needs to set path to `node_modules/.bin/yarn-lock-diff`.
 
 ```
 $ yarn upgrade

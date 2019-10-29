@@ -8,5 +8,5 @@ program
     .version(pkg.version)
 program.parse(process.argv);
 
-let command = new YarnLockDiff(program.user, program.email, program.branch);
+let command = new YarnLockDiff('HEAD:yarn.lock', 'yarn.lock');
 command.run();
