@@ -1,5 +1,5 @@
 {
-  "name": "yarn-lock-diff",
+  "name": "@ksmakey/yarn-lock-diff",
   "version": "0.1.0",
   "description": "See what has changed after yarn upgrade.",
   "main": "index.js",
