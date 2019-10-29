@@ -6,7 +6,7 @@ This command needs to execute before commit for changes.
 ## Installation
 
 ```
-$ yarn add ksmakey/yarn-lock-diff
+$ yarn add @ksmakey/yarn-lock-diff
 ```
 
 ## CLI command references
