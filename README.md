@@ -11,6 +11,8 @@ $ yarn add @ksmakey/yarn-lock-diff
 
 ## CLI command references
 
+You may needs to set path to `node_modules/@ksmakey/yarn-lock-diff/bin/yarn-lock-diff`.
+
 ```
 $ yarn upgrade
 $ yarn-lock-diff
