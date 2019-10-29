@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ksmakey/yarn-lock-diff.svg?branch=master)](https://travis-ci.org/ksmakey/yarn-lock-diff)
+
 # yarn-lock-diff
 
 `yarn-lock-diff` shows you changes for `yarn upgrade`.
@@ -5,7 +7,7 @@ This command needs to execute before commit for changes.
 
 ### Requires
 
-Node.js >= 6.0.0
+Node.js >= 11.15.0
 
 ## Installation
 
