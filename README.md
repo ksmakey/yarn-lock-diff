@@ -18,6 +18,17 @@ $ yarn upgrade
 $ yarn-lock-diff
 ```
 
+### Usage
+
+```
+yarn-lock-diff --help
+Usage: yarn-lock-diff [options]
+
+Options:
+  -V, --version  output the version number
+  -h, --help     output usage information
+```
+
 ## Example Output
 
 ```
