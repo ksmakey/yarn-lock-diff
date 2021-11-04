@@ -4,7 +4,7 @@
   "description": "See what has changed after yarn upgrade.",
   "main": "index.js",
   "bin": {
-    "yarn-lock-diff": "bin/yarn-lock-diff.js"
+    "yarn-lock-diff": "bin/yarn-lock-diff"
   },
   "repository": "https://github.com/ksmakey/yarn-lock-diff",
   "author": "ksmakey@gmail.com",
