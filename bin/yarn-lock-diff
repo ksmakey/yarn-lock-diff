@@ -10,4 +10,4 @@ program.parse(process.argv);
 
 let command = new YarnLockDiff('HEAD:yarn.lock', 'yarn.lock');
 const changes = command.run();
-console.log(changes);
+console.log(JSON.stringify(changes));
