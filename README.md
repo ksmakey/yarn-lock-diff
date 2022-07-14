@@ -38,7 +38,7 @@ Options:
 ## Example Output
 
 ```
-{ '"sass-loader": { "previous": "7.1.0", "current": "7.3.1" },
+{ "sass-loader": { "previous": "7.1.0", "current": "7.3.1" },
   "sass": { "previous": "1.22.7", current: "1.22.12" },
   ...
   "webpack": { "previous": "4.36.1", "current": "4.41.0" } }
